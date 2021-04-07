@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    background-image: url(images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+/* SIDE LEFT */
+
+.sideLeft {
+    flex: 1;
+    background-color: red;
+    color: #FFF;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sideLeft h1 {
+    font-size: 40px;
+    inline-size: 350px;
+    overflow-wrap: break-word;
+}
+
+.sideLeft h4 {
+    font-weight: 500;
+    inline-size: 550px;
+    overflow-wrap: break-word;
+    padding-left: 200px;
+}
+
+/* SIDE RIGHT */
+
+.sideRight {
+    flex: 1;
+    background-color: green;
+}
+
+.sideRight h3 {
+    width: 500px;
+    color: #FFF;
+    font-weight: 400;
+    text-align: center;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.sideRight input {
+    display: flex;
+}
+
+.sideRight button {
+    width: 500px;
+    border: none;
+    color: #FFF;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: hsl(154, 59%, 51%);
+    padding: 10px 30px;
+    border-radius: 10px;
+}
