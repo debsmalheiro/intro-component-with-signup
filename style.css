@@ -78,6 +78,14 @@ body {
     outline: none;
 }
 
+input:focus, input:active {
+    border-color: hsl(248, 32%, 49%);
+}
+
+#error {
+    border-color: red;
+}
+
 .sideRight button {
     width: 458px;
     border: none;
